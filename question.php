@@ -61,7 +61,7 @@
         <div class="question p-2" style="color: white">
           <div class="py-2 h5"><h7>Frage <?php echo ($currentQuestionIndex + 1); ?> von <?php echo $quiz["questionNum"]; ?></h7></div>
 
-          <h3><?php echo $question["question_text"]; ?></h3>
+          <h3><?php echo $question["question"]; ?></h3>
 
             <form id="quiz-form" action="<?php echo $actionUrl;?>" method="post" onsubmit="return navigate('next');">
                 <?php 

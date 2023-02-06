@@ -28,7 +28,7 @@ function fetchQuestionIdSequence($topic, $questionNum, $random, $dbConnection) {
     $sqlStatement = $dbConnection->query($query);
     $rows = $sqlStatement->fetchAll(PDO::FETCH_COLUMN, 0); 
 
-   // print_r($rows);
+   print_r($rows);
 
     return $rows;
 }
