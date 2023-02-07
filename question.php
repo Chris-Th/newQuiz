@@ -21,7 +21,7 @@
     <script src="https://kit.fontawesome.com/a26c0b57c5.js" crossorigin="anonymous"></script>
 
 </head>
-<body class="justify-content-center"> 
+<body class="justify-content-center bg-secondary"> 
 
 
 <?php
